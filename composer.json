@@ -1,0 +1,23 @@
+{
+  "name": "cloud/token-middleware",
+  "description": "Slim 4 middleware for validating custom cloud access tokens",
+  "type": "project",
+  "require": {
+    "php": ">=8.1",
+    "slim/slim": "^4.12",
+    "slim/psr7": "^1.6"
+  },
+  "require-dev": {
+    "phpunit/phpunit": "^10.5"
+  },
+  "autoload": {
+    "psr-4": {
+      "App\\": "src/"
+    }
+  },
+  "autoload-dev": {
+    "psr-4": {
+      "Tests\\": "tests/"
+    }
+  }
+}
